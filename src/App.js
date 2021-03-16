@@ -1,10 +1,13 @@
 import React from "react";
-
+// Importing Components
+import Player from './components/Player';
+import Song from './components/Song';
 
 function App() {
   return (
     <div className="App">
-      <h1>Music </h1>
+      <Song />
+      <Player />
     </div>
   );
 }
